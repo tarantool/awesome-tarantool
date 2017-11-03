@@ -110,6 +110,8 @@ A curated list of delightful Tarantool [modules](#modules),
   Prometheus metric collector for Tarantool.
 - [xlog](https://tarantool.org/doc/reference/reference_lua/xlog.html)
   (builtin) - a Lua module to read Tarantool's data files.
+- [tarantool-admin](https://github.com/basis-company/tarantool-admin) -
+  web-based user interface
 
 ## Connectors
 
