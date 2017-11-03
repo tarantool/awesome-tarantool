@@ -120,7 +120,7 @@ Tarantool connectors for various programming languages.
 - [Python connector](https://github.com/tarantool/tarantool-python).
 - [Java connector](https://github.com/tarantool/tarantool-java).
 - [Go connector](https://github.com/tarantool/go-tarantool).
-- [C# connector](https://github.com/progaudi/tarantool-csharp).
+- [C# connector](https://github.com/progaudi/progaudi.tarantool).
 - [Swift connector](https://github.com/tris-foundation/tarantool).
 - [Erlang connector](https://github.com/stofel/taran).
 - [C connector](https://github.com/tarantool/tarantool-c).
