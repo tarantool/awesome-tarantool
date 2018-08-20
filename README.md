@@ -127,6 +127,7 @@ Tarantool connectors for various programming languages.
 - [Erlang connector](https://github.com/stofel/taran).
 - [C connector](https://github.com/tarantool/tarantool-c).
 - [Nginx Upstream module](https://github.com/tarantool/nginx_upstream_module).
+- [Crystal connector](https://github.com/vladfaust/tarantool-crystal).
 
 ## Resources
 
