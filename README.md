@@ -21,12 +21,12 @@ A curated list of delightful Tarantool [modules](#modules),
   a high-performance multi-engine database.
 - [queue](https://github.com/tarantool/queue) -
   a set of persistent in-memory queues.
-- [shard](https://github.com/tarantool/shard) -
-  automatic sharding and resharidng.
+- [vshard](https://github.com/tarantool/vshard) -
+  automatic sharding and resharding.
 - [memcached](https://github.com/tarantool/memcached) -
-  memcached implementation on the top of Tarantool.
+  memcached implementation on top of Tarantool.
 - [expirationd](https://github.com/tarantool/expirationd) -
-  data expiration with custom quirks.
+  data expiration with custom extensions.
 - [avro-schema](https://github.com/tarantool/avro-schema) -
   Apache Avro schema tools for Tarantool.
 - [gis](https://github.com/tarantool/gis) -
@@ -47,8 +47,6 @@ A curated list of delightful Tarantool [modules](#modules),
 
 - [net.box](https://tarantool.org/doc/reference/reference_lua/net_box.html)
   (builtin) - Tarantool client for Tarantool (WOW!).
-- [connpool](https://github.com/tarantool/shard) -
-  net.box connection pool for Tarantool.
 - [mqtt](https://github.com/tarantool/mqtt) -
   MQTT client for Tarantool.
 - [mysql](https://github.com/tarantool/mysql) -
@@ -56,9 +54,16 @@ A curated list of delightful Tarantool [modules](#modules),
 - [pg](https://github.com/tarantool/pg) -
   PostgreSQL client for Tarantool.
 - [curl](https://github.com/tarantool/curl) -
-  libcurl bindings for tarantool.
+  libcurl bindings for Tarantool.
 - [http](https://github.com/tarantool/http) -
   http client and server for Tarantool.
+
+### GUI clients
+
+- [tarantool-admin](https://github.com/basis-company/tarantool-admin) -
+  web-based user interface.
+- [ocelotgui](https://github.com/ocelot-inc/ocelotgui-tarantool) -
+  primarily for Tarantool/SQL.
 
 ### System
 
@@ -72,7 +77,7 @@ A curated list of delightful Tarantool [modules](#modules),
   (builtin) - high-precision timers.
 - [log](https://tarantool.org/doc/reference/reference_lua/log.html)
   (builtin) - simple logger with support of syslog.
-- [ljsyscall](https://github.com/justincormack/ljsyscall) -
+- [ljsyscall](https://github.com/tarantool-contrib/ljsyscall) -
   bindings for Unix syscall using FFI.
 
 ### Security
@@ -87,15 +92,10 @@ A curated list of delightful Tarantool [modules](#modules),
 - [uuid](https://tarantool.org/doc/reference/reference_lua/uuid.html)
   (builtin) - Universally Unique Identifier library.
 
-### Debuggers
-
-- [tdb](https://github.com/Sulverus/tdb) -
-  an interactive debugger
-
 ### Profilers
 
 - [gperftools](https://github.com/tarantool/gperftools) -
-  Lua bindings for Google Performance Tools CPU Profiler).
+  Lua bindings for Google Performance Tools CPU Profiler.
 
 ### Testing
 
@@ -104,14 +104,16 @@ A curated list of delightful Tarantool [modules](#modules),
 
 ### Administration
 
+- [Cartridge](https://github.com/tarantool/cartridge) -
+  cluster manager.
 - [console](https://tarantool.org/doc/reference/reference_lua/console.html)
   (builtin) - a text-based user interface.
 - [prometheus](https://github.com/tarantool/prometheus) -
   Prometheus metric collector for Tarantool.
 - [xlog](https://tarantool.org/doc/reference/reference_lua/xlog.html)
   (builtin) - a Lua module to read Tarantool's data files.
-- [tarantool-admin](https://github.com/basis-company/tarantool-admin) -
-  web-based user interface
+- [iproto-sniffer](https://github.com/dsamirov/tarantool-iproto-sniffer) -
+  detects insert and replace and call protocol commands.
 
 ## Connectors
 
@@ -143,7 +145,7 @@ Tarantool connectors for various programming languages.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
 [awesome-url]: https://awesome.re/
-[tarantool-badge]: https://img.shields.io/badge/tarantool-1.7-blue.svg?style=flat
+[tarantool-badge]: https://img.shields.io/badge/tarantool-2.6-blue.svg?style=flat
 [tarantool-url]: https://tarantool.org/
 [license-badge]: https://img.shields.io/badge/License-CC--BY-orange.svg?style=flat
 [license-url]: LICENSE.md
