@@ -64,6 +64,10 @@ A curated list of delightful Tarantool [modules](#modules),
   web-based user interface.
 - [ocelotgui](https://github.com/ocelot-inc/ocelotgui-tarantool) -
   primarily for Tarantool/SQL.
+- [DataGrip](https://www.jetbrains.com/datagrip/) or [IntelliJ
+  IDEA](https://www.jetbrains.com/idea/) with [Tarantool Database
+  plugin](https://plugins.jetbrains.com/plugin/17422-tarantool-database) -
+  cross platform database IDE that can do SQL queries.
 
 ### System
 
