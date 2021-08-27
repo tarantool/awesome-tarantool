@@ -45,7 +45,7 @@ A curated list of delightful Tarantool [modules](#modules),
 
 ### Clients
 
-- [net.box](https://tarantool.org/doc/reference/reference_lua/net_box.html)
+- [net.box](https://www.tarantool.io/en/doc/latest/reference/reference_lua/net_box/)
   (builtin) - Tarantool client for Tarantool (WOW!).
 - [mqtt](https://github.com/tarantool/mqtt) -
   MQTT client for Tarantool.
