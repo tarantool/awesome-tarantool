@@ -81,8 +81,6 @@ A curated list of delightful Tarantool [modules](#modules),
   (builtin) - high-precision timers.
 - [log](https://www.tarantool.io/en/doc/latest/reference/reference_lua/log/)
   (builtin) - simple logger with support of syslog.
-- [ljsyscall](https://github.com/tarantool-contrib/ljsyscall) -
-  bindings for Unix syscall using FFI.
 
 ### Security
 
