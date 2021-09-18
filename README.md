@@ -17,7 +17,7 @@ A curated list of delightful Tarantool [modules](#modules),
 
 ### Database
 
-- [box](https://tarantool.org/doc/book/box/index.html) (builtin) -
+- [box](https://www.tarantool.io/en/doc/latest/book/box/) (builtin) -
   a high-performance multi-engine database.
 - [queue](https://github.com/tarantool/queue) -
   a set of persistent in-memory queues.
@@ -34,18 +34,18 @@ A curated list of delightful Tarantool [modules](#modules),
 
 ### Data Handling
 
-- [json](https://tarantool.org/doc/reference/reference_lua/json.html)
+- [json](https://www.tarantool.io/en/doc/latest/reference/reference_lua/json/)
   (builtin) - JSON encoder/decoder.
-- [yaml](https://tarantool.org/doc/reference/reference_lua/yaml.html)
+- [yaml](https://www.tarantool.io/en/doc/latest/reference/reference_lua/yaml/)
   (builtin) - YAML encoder/decoder.
-- [msgpack](https://tarantool.org/doc/reference/reference_lua/msgpack.html)
+- [msgpack](https://www.tarantool.io/en/doc/latest/reference/reference_lua/msgpack/)
   (builtin) - MsgPack encoder/decoder.
-- [csv](https://tarantool.org/doc/reference/reference_lua/csv.html)
+- [csv](https://www.tarantool.io/en/doc/latest/reference/reference_lua/csv/)
   (builtin) - CSV parser.
 
 ### Clients
 
-- [net.box](https://tarantool.org/doc/reference/reference_lua/net_box.html)
+- [net.box](https://www.tarantool.io/en/doc/latest/reference/reference_lua/net_box/)
   (builtin) - Tarantool client for Tarantool (WOW!).
 - [mqtt](https://github.com/tarantool/mqtt) -
   MQTT client for Tarantool.
@@ -71,29 +71,29 @@ A curated list of delightful Tarantool [modules](#modules),
 
 ### System
 
-- [fiber](https://tarantool.org/doc/reference/reference_lua/fiber.html)
+- [fiber](https://www.tarantool.io/en/doc/latest/reference/reference_lua/fiber/)
   (builtin) - cooperative multitasking and synchronization mechanisms.
-- [socket](https://tarantool.org/doc/reference/reference_lua/socket.html)
+- [socket](https://www.tarantool.io/en/doc/latest/reference/reference_lua/socket/)
   (builtin) - fiber-friendly socket I/O.
-- [fio](https://tarantool.org/doc/reference/reference_lua/fio.html)
+- [fio](https://www.tarantool.io/en/doc/latest/reference/reference_lua/fio/)
   (builtin) - fiber-friendly file I/O.
-- [clock](https://tarantool.org/doc/reference/reference_lua/clock.html)
+- [clock](https://www.tarantool.io/en/doc/latest/reference/reference_lua/clock/)
   (builtin) - high-precision timers.
-- [log](https://tarantool.org/doc/reference/reference_lua/log.html)
+- [log](https://www.tarantool.io/en/doc/latest/reference/reference_lua/log/)
   (builtin) - simple logger with support of syslog.
 - [ljsyscall](https://github.com/tarantool-contrib/ljsyscall) -
   bindings for Unix syscall using FFI.
 
 ### Security
 
-- [digest](https://tarantool.org/doc/reference/reference_lua/digest.html)
+- [digest](https://www.tarantool.io/en/doc/latest/reference/reference_lua/digest/)
   (builtin) - popular hash functions.
 - [luaossl](https://github.com/tarantool/luaossl) -
   the most comprehensive OpenSSL bindings.
 
 ### Miscellaneous
 
-- [uuid](https://tarantool.org/doc/reference/reference_lua/uuid.html)
+- [uuid](https://www.tarantool.io/en/doc/latest/reference/reference_lua/uuid/)
   (builtin) - Universally Unique Identifier library.
 
 ### Profilers
@@ -103,18 +103,18 @@ A curated list of delightful Tarantool [modules](#modules),
 
 ### Testing
 
-- [tap](https://tarantool.org/doc/reference/reference_lua/tap.html)
+- [tap](https://www.tarantool.io/en/doc/latest/reference/reference_lua/tap/)
   (builtin) - Test Anything Protocol implementation.
 
 ### Administration
 
 - [Cartridge](https://github.com/tarantool/cartridge) -
   cluster manager.
-- [console](https://tarantool.org/doc/reference/reference_lua/console.html)
+- [console](https://www.tarantool.io/en/doc/latest/reference/reference_lua/console/)
   (builtin) - a text-based user interface.
 - [prometheus](https://github.com/tarantool/prometheus) -
   Prometheus metric collector for Tarantool.
-- [xlog](https://tarantool.org/doc/reference/reference_lua/xlog.html)
+- [xlog](https://www.tarantool.io/en/doc/latest/reference/reference_lua/xlog/)
   (builtin) - a Lua module to read Tarantool's data files.
 - [iproto-sniffer](https://github.com/dsamirov/tarantool-iproto-sniffer) -
   detects insert and replace and call protocol commands.
@@ -150,6 +150,6 @@ Tarantool connectors for various programming languages.
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
 [awesome-url]: https://awesome.re/
 [tarantool-badge]: https://img.shields.io/badge/tarantool-2.6-blue.svg?style=flat
-[tarantool-url]: https://tarantool.org/
+[tarantool-url]: https://www.tarantool.io
 [license-badge]: https://img.shields.io/badge/License-CC--BY-orange.svg?style=flat
 [license-url]: LICENSE.md
