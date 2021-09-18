@@ -112,8 +112,8 @@ A curated list of delightful Tarantool [modules](#modules),
   cluster manager.
 - [console](https://www.tarantool.io/en/doc/latest/reference/reference_lua/console/)
   (builtin) - a text-based user interface.
-- [prometheus](https://github.com/tarantool/prometheus) -
-  Prometheus metric collector for Tarantool.
+- [metrics](https://github.com/tarantool/metrics) -
+  Graphite/Prometheus metric collection library for Tarantool.
 - [xlog](https://www.tarantool.io/en/doc/latest/reference/reference_lua/xlog/)
   (builtin) - a Lua module to read Tarantool's data files.
 - [iproto-sniffer](https://github.com/dsamirov/tarantool-iproto-sniffer) -
