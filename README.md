@@ -53,10 +53,10 @@ A curated list of delightful Tarantool [modules](#modules),
   MySQL client for Tarantool.
 - [pg](https://github.com/tarantool/pg) -
   PostgreSQL client for Tarantool.
-- [curl](https://github.com/tarantool/curl) -
-  libcurl bindings for Tarantool.
-- [http](https://github.com/tarantool/http) -
-  http client and server for Tarantool.
+- [http.client](https://www.tarantool.io/en/doc/latest/reference/reference_lua/http/) -
+  (builtin) HTTP(S) client based on libcurl.
+- [http.server](https://github.com/tarantool/http) -
+  HTTP server for Tarantool.
 
 ### GUI clients
 
