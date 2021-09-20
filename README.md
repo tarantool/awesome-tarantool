@@ -127,7 +127,6 @@ Tarantool connectors for various programming languages.
 - [Java connector](https://github.com/tarantool/tarantool-java).
 - [Go connector](https://github.com/tarantool/go-tarantool).
 - [C# connector](https://github.com/progaudi/progaudi.tarantool).
-- [Swift connector](https://github.com/tris-foundation/tarantool).
 - [Erlang connector](https://github.com/stofel/taran).
 - [C connector](https://github.com/tarantool/tarantool-c).
 - [Nginx Upstream module](https://github.com/tarantool/nginx_upstream_module).
