@@ -107,7 +107,7 @@ A curated list of delightful Tarantool [modules](#modules),
 ### Administration
 
 - [Cartridge](https://github.com/tarantool/cartridge) -
-  cluster manager.
+  cluster manager and application framework.
 - [console](https://www.tarantool.io/en/doc/latest/reference/reference_lua/console/)
   (builtin) - a text-based user interface.
 - [metrics](https://github.com/tarantool/metrics) -
@@ -124,13 +124,19 @@ Tarantool connectors for various programming languages.
 - [PHP PECL connector](https://github.com/tarantool/tarantool-php).
 - [PHP pure connector](https://github.com/tarantool-php/client).
 - [Python connector](https://github.com/tarantool/tarantool-python).
-- [Java connector](https://github.com/tarantool/tarantool-java).
+- [JDBC driver](https://github.com/tarantool/tarantool-java) -- offers JDBC interface for a single Tarantool node and supports ancient Tarantool versions (1.7+).
+- [Java driver](https://github.com/tarantool/cartridge-java) -- based on Netty framework, supports both single Tarantool nodes and clusters (1.10+) as well as applications using Cartridge framework and its modules.
 - [Go connector](https://github.com/tarantool/go-tarantool).
 - [C# connector](https://github.com/progaudi/progaudi.tarantool).
 - [Erlang connector](https://github.com/stofel/taran).
 - [C connector](https://github.com/tarantool/tarantool-c).
 - [Nginx Upstream module](https://github.com/tarantool/nginx_upstream_module).
 - [Crystal connector](https://github.com/vladfaust/tarantool-crystal).
+
+### Java Ecosystem
+
+- [Testcontainers](https://github.com/tarantool/cartridge-java-testcontainers) -- support for Java integration tests with Tarantool applications in Docker containers.
+- [Spring Data](https://github.com/tarantool/cartridge-springdata) -- Spring framework support.
 
 ## Resources
 
