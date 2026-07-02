@@ -140,6 +140,10 @@ Tarantool connectors for various programming languages.
 - [Testcontainers](https://github.com/tarantool/cartridge-java-testcontainers) -- support for Java integration tests with Tarantool applications in Docker containers.
 - [Spring Data](https://github.com/tarantool/cartridge-springdata) -- Spring framework support.
 
+### Go Ecosystem
+
+- [Migration tool](https://github.com/Kachit/tarantool-migrator) -- simple migration tool using in golang apps
+
 ## Resources
 
 - [GitHub](https://github.com/tarantool) -
