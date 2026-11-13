@@ -116,6 +116,8 @@ A curated list of delightful Tarantool [modules](#modules),
   (builtin) - a Lua module to read Tarantool's data files.
 - [iproto-sniffer](https://github.com/dsamirov/tarantool-iproto-sniffer) -
   detects insert and replace and call protocol commands.
+- [iproto-tarantool-sniffer](https://github.com/LaNdErTiS/iproto-tarantool-sniffer) -
+  a command-line tool designed for sniffing and decoding Tarantool binary protocol. It supports both live packet capture and PCAP file analysis, decoding various messages including communications between clients and instances, as well as between cluster replicas.
 - [tarantool-dissector](https://github.com/tarantool/tarantool-dissector) -
   Wireshark dissector for Tarantool binary protocol.
 
