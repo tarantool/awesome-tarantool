@@ -134,6 +134,7 @@ Tarantool connectors for various programming languages.
 - [C connector](https://github.com/tarantool/tarantool-c).
 - [Nginx Upstream module](https://github.com/tarantool/nginx_upstream_module).
 - [Crystal connector](https://github.com/vladfaust/tarantool-crystal).
+- [tarant](https://github.com/voilecx/tarant) - Async, typed Rust connector for Tarantool 3.x.
 
 ### Java Ecosystem
 
